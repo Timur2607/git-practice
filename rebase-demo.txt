@@ -1,1 +1,2 @@
 "Line 1: initial from feature-rebase" 
+"Line 2: more notes in feature branch" 
