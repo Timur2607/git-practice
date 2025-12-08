@@ -1,0 +1,15 @@
+name: CI Test Workflow
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  test-run:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      
+      - name: Test workflow run
+        run: echo "GitHub Actions успешно работает 🚀"
